@@ -1,3 +1,4 @@
 redis==4.3.4
 uptrace==1.14.0
 opentelemetry-instrumentation-redis==0.35b0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
